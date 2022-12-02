@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Papyrus</title>
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<script src="https://kit.fontawesome.com/aa9a150395.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<section id="shipping">
+		<div>FREE shipping above Rs. 699.00<span><i class="fa-solid fa-plane-up"></i></span></div>
+	</section>
+	<%- include("../models/header.ejs")%>
+
+    <hr class="hr_navbar" />
+
+    <div class="hero_section">
+      <div class="hero_section_text">
+        <h1>We take you on a Journey of limitless <br>learning and fun.</h1>
+      </div>
+    </div>
+
+	<main>
+		<section id="explore-books">
+			<div class="main-book-image"></div>
+			<div class="explore-book-tab">
+				<span>Books for All</span>
+				<ul>
+					<li><i class="fa-sharp fa-solid fa-scroll icon"></i>Great paper quality</li>
+					<li><i class="fa-solid fa-list-check icon"></i>Variety of genres</li>
+					<li><i class="fa-solid fa-truck icon"></i>Free delivery</li>
+				</ul>
+				<a href="/books"><button class="explore-btn">Explore all books<i class="fa-brands fa-wpexplorer icon-shop"></i></button></a>
+			</div>
+		</section>
+		<section id="explore-posters">
+			<div class="explore-poster-tab">
+			 <span>Exclusive Posters</span>
+				<ul>
+					<li><i class="fa-solid fa-star icon"></i>Glossy and Matte paper</li>
+					<li><i class="fa-solid fa-print icon"></i>HD printing quality</li>
+					<li><i class="fa-solid fa-pen-fancy icon"></i>Exclusive Designs</li>
+				</ul>
+				<a href="/poster"><button class="explore-btn">Shop now<i class="fa-solid fa-cart-shopping icon-shop"></i></button></a>
+			</div>
+			<div class="main-poster-image"></div>
+		</section>
+		<section id="hot-collections">
+			<header>Hot Collections<i class="fa-solid fa-bolt" id="bolt"></i></header>
+			<div id="Collection-container">
+				<div>
+					<span class="image-container"><img src="/images\Son and Kane💙🤍💪🏴______🇰🇷.jpeg"></span>
+					<a href="/poster"><span class="caption-container">Football Posters<i class="fa-solid fa-arrow-right" id="books-icon"></i></span></a>
+				</div>
+				<div>
+				    <span class="image-container"><img src="/images\Magzines\1.jpg"></span>
+					<a href="/poster"><span class="caption-container">Magzines<i class="fa-solid fa-arrow-right" id="books-icon"></i></span></a>
+				</div>
+				<div>
+					<span class="image-container"><img src="/images\Cinco tramas que no incluyeron en Game of Thrones y que son cruciales en los libros.jpeg"></span>
+					<a href="/books"><span class="caption-container">GOT<i class="fa-solid fa-arrow-right" id="books-icon"></i></span></a>
+				</div>
+			</div>
+		</section>
+		<%- include("../models/footer.ejs")%>
+
+
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

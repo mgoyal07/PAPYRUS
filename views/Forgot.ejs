@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Papyrus/forgot</title>
+    <link rel="stylesheet" href="/css/Forgot.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Nunito&family=Open+Sans:wght@400;500&family=Playball&family=Poppins:ital,wght@0,400;1,500&family=Vujahday+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <%- include("./partials/header")%>
+
+    <hr class="hr_navbar" />
+
+      <div class="Forg">
+
+        <div class="FHead"> <b>  Reset your <br> password </b> </div>
+        <div class="Ftext">We will send you an email to reset your password </div>
+
+        <div class="FButtons">    
+            <form class="Fbutton">
+              <!-- <label for="fname">First Name</label> -->
+              <input type="text" id="fname" name="firstname" placeholder="Email">
+            </form>
+        </div>  
+
+        
+        <div class="Fsub">
+            <form class="Fsubm"></form>
+                <input type="submit" id="Submit" value="Submit">
+            </form>    
+        </div>
+        
+        <div class="Flast">Cancel</div>
+
+      </div>
+      <%- include("./partials/footer")%>
+</body>
+</html>
